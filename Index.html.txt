@@ -1,0 +1,2607 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movilidad Eléctrica WR</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #059669 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        .price-tag {
+            background: linear-gradient(45deg, #f59e0b, #f97316);
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #1e40af, #059669);
+        }
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #1e3a8a, #047857);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-green-600 rounded-full flex items-center justify-center mr-3">
+                    <span class="text-white font-bold text-xl">WR</span>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold text-gray-800">Movilidad Eléctrica WR</h1>
+                    <p class="text-sm text-gray-600">Energía para tu movilidad</p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-4">
+                <a href="#inicio" class="text-gray-700 hover:text-green-600 font-medium transition">Inicio</a>
+                <a href="#baterias" class="text-gray-700 hover:text-green-600 font-medium transition">Baterías</a>
+                <a href="#repuestos" class="text-gray-700 hover:text-green-600 font-medium transition">Repuestos</a>
+                <a href="#servicios" class="text-gray-700 hover:text-green-600 font-medium transition">Servicios</a>
+                <a href="#contacto" class="text-gray-700 hover:text-green-600 font-medium transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Soluciones en Movilidad Eléctrica</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Especialistas en baterías y repuestos para vehículos eléctricos. Calidad, garantía y servicio técnico especializado.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#baterias" class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition shadow-lg">
+                    Ver Productos
+                </a>
+                <a href="#contacto" class="border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-blue-600 transition">
+                    Contactarnos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Baterías Section -->
+    <section id="baterias" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestras Baterías</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Ofrecemos baterías de alta calidad para diferentes necesidades. Todos nuestros productos incluyen garantía y asesoría técnica especializada.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Batería 12V 12Ah -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="bg-gray-200 h-48 flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-battery-full text-6xl text-blue-600 mb-2"></i>
+                            <p class="text-gray-600">Batería 12V 12Ah</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Batería 12V 12Ah</h3>
+                        <p class="text-gray-600 mb-4">Ideal para sistemas de respaldo y pequeños vehículos eléctricos. Alta durabilidad y rendimiento constante.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-green-600 price-tag text-white px-3 py-1 rounded">COP $150,000</span>
+                            <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+                                <i class="fas fa-shopping-cart mr-1"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Batería 12V 22Ah -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="bg-gray-200 h-48 flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-battery-full text-6xl text-blue-600 mb-2"></i>
+                            <p class="text-gray-600">Batería 12V 22Ah</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Batería 12V 22Ah</h3>
+                        <p class="text-gray-600 mb-4">Mayor capacidad para vehículos eléctricos y sistemas de energía más exigentes. Excelente relación calidad-precio.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-green-600 price-tag text-white px-3 py-1 rounded">COP $200,000</span>
+                            <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+                                <i class="fas fa-shopping-cart mr-1"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Batería 12V 32Ah -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="bg-gray-200 h-48 flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-battery-full text-6xl text-blue-600 mb-2"></i>
+                            <p class="text-gray-600">Batería 12V 32Ah</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Batería 12V 32Ah</h3>
+                        <p class="text-gray-600 mb-4">Alta capacidad para vehículos eléctricos y sistemas industriales. Máxima duración y eficiencia energética.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-green-600 price-tag text-white px-3 py-1 rounded">COP $300,000</span>
+                            <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+                                <i class="fas fa-shopping-cart mr-1"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repuestos Section -->
+    <section id="repuestos" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Repuestos y Accesorios</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Amplia variedad de repuestos originales y compatibles para mantener tu sistema en óptimas condiciones.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Repuesto 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luces direccionales</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luces direccionales delanteras 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $22,800</p>
+                </div>
+
+                <!-- Repuesto 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Kit parches</h3>
+                    <p class="text-gray-600 text-sm mb-3">Kit de parches despiche neumáticos</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,200</p>
+                </div>
+
+                <!-- Repuesto 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Tacos despiche</h3>
+                    <p class="text-gray-600 text-sm mb-3">Tacos para despiche x 30</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,000</p>
+                </div>
+
+                <!-- Repuesto 4 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Parche 30mm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Parche de 30mm despiche llanta</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,200</p>
+                </div>
+
+                <!-- Repuesto 5 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Parche 40mm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Parche de 40mm despiche llanta</p>
+                    <p class="text-lg font-bold text-green-600">COP $1,020</p>
+                </div>
+
+                <!-- Repuesto 6 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Parche 50mm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Parche de 50mm despiche llanta</p>
+                    <p class="text-lg font-bold text-green-600">COP $1,200</p>
+                </div>
+
+                <!-- Repuesto 7 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pegamento parches</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pegamento para parches despiche</p>
+                    <p class="text-lg font-bold text-green-600">COP $1,560</p>
+                </div>
+
+                <!-- Repuesto 8 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Separador pastillas</h3>
+                    <p class="text-gray-600 text-sm mb-3">Separador pastillas de freno</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 9 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cargador 48V 12A</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cargador plomo/gel 48V 12AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $78,000</p>
+                </div>
+
+                <!-- Repuesto 10 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cargador 48V 20A</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cargador plomo/gel 48V 20AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $90,000</p>
+                </div>
+
+                <!-- Repuesto 11 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Flaser redondo</h3>
+                    <p class="text-gray-600 text-sm mb-3">Flaser redondo 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $6,480</p>
+                </div>
+
+                <!-- Repuesto 12 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable conexión</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable conexión baterías</p>
+                    <p class="text-lg font-bold text-green-600">COP $2,400</p>
+                </div>
+
+                <!-- Repuesto 13 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guaya freno delantero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guaya freno delantero</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,200</p>
+                </div>
+
+                <!-- Repuesto 14 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guaya freno trasero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guaya freno trasero</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 15 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rin delantero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rin delantero freno de banda 16x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $105,600</p>
+                </div>
+
+                <!-- Repuesto 16 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador con display</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador con display y llave</p>
+                    <p class="text-lg font-bold text-green-600">COP $45,600</p>
+                </div>
+
+                <!-- Repuesto 17 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Interruptor luces</h3>
+                    <p class="text-gray-600 text-sm mb-3">Interruptor luces</p>
+                    <p class="text-lg font-bold text-green-600">COP $45,600</p>
+                </div>
+
+                <!-- Repuesto 18 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 18x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático 18x2.50 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,800</p>
+                </div>
+
+                <!-- Repuesto 19 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 16x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático 16x2.50 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,800</p>
+                </div>
+
+                <!-- Repuesto 20 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 14x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático 14x2.50 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,200</p>
+                </div>
+
+                <!-- Repuesto 21 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 16x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $94,800</p>
+                </div>
+
+                <!-- Repuesto 22 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 14x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $82,800</p>
+                </div>
+
+                <!-- Repuesto 23 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 16x3.0</p>
+                    <p class="text-lg font-bold text-green-600">COP $102,000</p>
+                </div>
+
+                <!-- Repuesto 24 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 10x2.75</p>
+                    <p class="text-lg font-bold text-green-600">COP $95,400</p>
+                </div>
+
+                <!-- Repuesto 25 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta 3.00-10</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta para neumático 3.00-10</p>
+                    <p class="text-lg font-bold text-green-600">COP $96,000</p>
+                </div>
+
+                <!-- Repuesto 26 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta 3.50-10</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta Sello-Matic 3.50-10</p>
+                    <p class="text-lg font-bold text-green-600">COP $114,000</p>
+                </div>
+
+                <!-- Repuesto 27 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Amortiguador 29cm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Amortiguador trasero 29cm</p>
+                    <p class="text-lg font-bold text-green-600">COP $70,800</p>
+                </div>
+
+                <!-- Repuesto 28 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Amortiguador 27cm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Amortiguador trasero 27cm</p>
+                    <p class="text-lg font-bold text-green-600">COP $70,800</p>
+                </div>
+
+                <!-- Repuesto 29 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Amortiguador 25cm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Amortiguador trasero 25cm</p>
+                    <p class="text-lg font-bold text-green-600">COP $68,400</p>
+                </div>
+
+                <!-- Repuesto 30 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Amortiguador 17cm</h3>
+                    <p class="text-gray-600 text-sm mb-3">Amortiguador trasero 17cm</p>
+                    <p class="text-lg font-bold text-green-600">COP $54,000</p>
+                </div>
+
+                <!-- Repuesto 31 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno M-3</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno M-3</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,800</p>
+                </div>
+
+                <!-- Repuesto 32 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno C-6</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno C-6</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 33 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno Keiko</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno Keiko</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 34 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno C-18</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno C-18</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 35 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno S-1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno S-1</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 36 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno L-1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno L-1</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 37 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno A-1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno A-1</p>
+                    <p class="text-lg font-bold text-green-600">COP $11,400</p>
+                </div>
+
+                <!-- Repuesto 38 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bandas freno grandes</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bandas de freno extraíbles grandes</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,800</p>
+                </div>
+
+                <!-- Repuesto 39 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bandas freno pequeñas</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bandas delanteras pequeñas</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,800</p>
+                </div>
+
+                <!-- Repuesto 40 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Freno completo trasero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Freno completo trasero grande</p>
+                    <p class="text-lg font-bold text-green-600">COP $31,200</p>
+                </div>
+
+                <!-- Repuesto 41 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Freno completo delantero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Freno completo delantero grande</p>
+                    <p class="text-lg font-bold text-green-600">COP $28,800</p>
+                </div>
+
+                <!-- Repuesto 42 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Freno delantero pequeño</h3>
+                    <p class="text-gray-600 text-sm mb-3">Freno delantero pequeño</p>
+                    <p class="text-lg font-bold text-green-600">COP $20,400</p>
+                </div>
+
+                <!-- Repuesto 43 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bandas freno fijas</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bandas de freno fijas 90mm/100mm</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,200</p>
+                </div>
+
+                <!-- Repuesto 44 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador sencillo</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador sencillo</p>
+                    <p class="text-lg font-bold text-green-600">COP $24,000</p>
+                </div>
+
+                <!-- Repuesto 45 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador 1 vel + reversa</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador 1 velocidad + reversa</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 46 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador 3 velocidades</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador de 3 velocidades</p>
+                    <p class="text-lg font-bold text-green-600">COP $28,800</p>
+                </div>
+
+                <!-- Repuesto 47 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador velocidades + reversa</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador de velocidades + reversa</p>
+                    <p class="text-lg font-bold text-green-600">COP $30,000</p>
+                </div>
+
+                <!-- Repuesto 48 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador pulsaciones</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador de pulsaciones</p>
+                    <p class="text-lg font-bold text-green-600">COP $31,200</p>
+                </div>
+
+                <!-- Repuesto 49 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta freno izq grande</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta con boma de freno izquierda grande</p>
+                    <p class="text-lg font-bold text-green-600">COP $42,000</p>
+                </div>
+
+                <!-- Repuesto 50 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta freno izq pequeño</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta con boma de freno izquierda pequeño</p>
+                    <p class="text-lg font-bold text-green-600">COP $39,600</p>
+                </div>
+
+                <!-- Repuesto 51 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta freno disco par</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta para frenos de disco par</p>
+                    <p class="text-lg font-bold text-green-600">COP $26,400</p>
+                </div>
+
+                <!-- Repuesto 52 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta freno guaya</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta para frenos de guaya</p>
+                    <p class="text-lg font-bold text-green-600">COP $27,600</p>
+                </div>
+
+                <!-- Repuesto 53 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta lujo freno disco</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta de lujo para freno de disco</p>
+                    <p class="text-lg font-bold text-green-600">COP $45,600</p>
+                </div>
+
+                <!-- Repuesto 54 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Retenedores 27-37x10.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Retenedores 27-37x10.5 (10 pares)</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 55 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Retenedores 30x40.5x10.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Retenedores 30x40.5x10.5 (10 pares)</p>
+                    <p class="text-lg font-bold text-green-600">COP $102,000</p>
+                </div>
+
+                <!-- Repuesto 56 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Apoya pies par</h3>
+                    <p class="text-gray-600 text-sm mb-3">Apoya pies par</p>
+                    <p class="text-lg font-bold text-green-600">COP $19,800</p>
+                </div>
+
+                <!-- Repuesto 57 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Switch encendido #1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Switch encendido #1</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,200</p>
+                </div>
+
+                <!-- Repuesto 58 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Switch encendido #2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Switch encendido #2</p>
+                    <p class="text-lg font-bold text-green-600">COP $28,800</p>
+                </div>
+
+                <!-- Repuesto 59 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Switch encendido #3</h3>
+                    <p class="text-gray-600 text-sm mb-3">Switch encendido #3</p>
+                    <p class="text-lg font-bold text-green-600">COP $28,800</p>
+                </div>
+
+                <!-- Repuesto 60 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Chapa/baul</h3>
+                    <p class="text-gray-600 text-sm mb-3">Chapa/baul</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,800</p>
+                </div>
+
+                <!-- Repuesto 61 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Chapa/seguro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Chapa/seguro</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,800</p>
+                </div>
+
+                <!-- Repuesto 62 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte espejos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte para espejos</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,000</p>
+                </div>
+
+                <!-- Repuesto 63 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Espejos redondos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Espejos redondos rosca No 8</p>
+                    <p class="text-lg font-bold text-green-600">COP $20,400</p>
+                </div>
+
+                <!-- Repuesto 64 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Espejos rosca No 8</h3>
+                    <p class="text-gray-600 text-sm mb-3">Espejos rosca No 8</p>
+                    <p class="text-lg font-bold text-green-600">COP $19,200</p>
+                </div>
+
+                <!-- Repuesto 65 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Set piñones motor</h3>
+                    <p class="text-gray-600 text-sm mb-3">Set de piñones para motor</p>
+                    <p class="text-lg font-bold text-green-600">COP $46,800</p>
+                </div>
+
+                <!-- Repuesto 66 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Botones luces</h3>
+                    <p class="text-gray-600 text-sm mb-3">Botones para luces</p>
+                    <p class="text-lg font-bold text-green-600">COP $2,760</p>
+                </div>
+
+                <!-- Repuesto 67 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6001 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6001 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 68 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6002 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6002 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 69 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6003 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6003 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 70 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6200 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6200 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 71 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6202 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6202 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 72 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamientos 6203 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamientos 6203 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $2,760</p>
+                </div>
+
+                <!-- Repuesto 73 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamiento 6300 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamiento 6300 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 74 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rodamiento 6201 RS</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rodamiento 6201 RS</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 75 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rin delantero disco</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rin delantero freno de disco 16x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $105,600</p>
+                </div>
+
+                <!-- Repuesto 76 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Suspensión delantera</h3>
+                    <p class="text-gray-600 text-sm mb-3">Suspensión delantera</p>
+                    <p class="text-lg font-bold text-green-600">COP $110,400</p>
+                </div>
+
+                <!-- Repuesto 77 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Suspensión delantera disco</h3>
+                    <p class="text-gray-600 text-sm mb-3">Suspensión delantera freno de disco</p>
+                    <p class="text-lg font-bold text-green-600">COP $186,000</p>
+                </div>
+
+                <!-- Repuesto 78 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Válvula PVR-50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Válvula PVR-50</p>
+                    <p class="text-lg font-bold text-green-600">COP $3,480</p>
+                </div>
+
+                <!-- Repuesto 79 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Válvula PVR-70</h3>
+                    <p class="text-gray-600 text-sm mb-3">Válvula Sello-Matic PVR-70</p>
+                    <p class="text-lg font-bold text-green-600">COP $3,480</p>
+                </div>
+
+                <!-- Repuesto 80 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controles luces</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controles para luces</p>
+                    <p class="text-lg font-bold text-green-600">COP $50,400</p>
+                </div>
+
+                <!-- Repuesto 81 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador 48V-64V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador 48V a 64V 500W-800W 30AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $174,000</p>
+                </div>
+
+                <!-- Repuesto 82 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador 36V/48V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador 36V/48V 350W</p>
+                    <p class="text-lg font-bold text-green-600">COP $114,000</p>
+                </div>
+
+                <!-- Repuesto 83 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Sensores motor</h3>
+                    <p class="text-gray-600 text-sm mb-3">Sensores para motor (10 unidades)</p>
+                    <p class="text-lg font-bold text-green-600">COP $36,000</p>
+                </div>
+
+                <!-- Repuesto 84 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Taco 48V-72V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Taco 48V a 72V 63AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 85 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Taco 40AMP</h3>
+                    <p class="text-gray-600 text-sm mb-3">Taco 40AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 86 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Taco 100AMP</h3>
+                    <p class="text-gray-600 text-sm mb-3">Taco 100AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $33,600</p>
+                </div>
+
+                <!-- Repuesto 87 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Regulador voltaje</h3>
+                    <p class="text-gray-600 text-sm mb-3">Regulador de voltaje 36V a 80V</p>
+                    <p class="text-lg font-bold text-green-600">COP $22,800</p>
+                </div>
+
+                <!-- Repuesto 88 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Alarmas 48V-72V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Alarmas 48V a 72V</p>
+                    <p class="text-lg font-bold text-green-600">COP $37,200</p>
+                </div>
+
+                <!-- Repuesto 89 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cargador 60V 2AMP</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cargador batería plomo/gel 60V 2AMP con display digital</p>
+                    <p class="text-lg font-bold text-green-600">COP $96,000</p>
+                </div>
+
+                <!-- Repuesto 90 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cargador 72V 32AMP</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cargador batería plomo/gel 72V 32AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $114,000</p>
+                </div>
+
+                <!-- Repuesto 91 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Display digital</h3>
+                    <p class="text-gray-600 text-sm mb-3">Display digital 48V/72V</p>
+                    <p class="text-lg font-bold text-green-600">COP $69,600</p>
+                </div>
+
+                <!-- Repuesto 92 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pito 12V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pito 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,800</p>
+                </div>
+
+                <!-- Repuesto 93 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pito 48V-60V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pito 48V a 60V</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,000</p>
+                </div>
+
+                <!-- Repuesto 94 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Porta-fusible</h3>
+                    <p class="text-gray-600 text-sm mb-3">Porta-fusible</p>
+                    <p class="text-lg font-bold text-green-600">COP $3,240</p>
+                </div>
+
+                <!-- Repuesto 95 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Fusible 30AMP</h3>
+                    <p class="text-gray-600 text-sm mb-3">Fusible 30AMP (20 unidades)</p>
+                    <p class="text-lg font-bold text-green-600">COP $4,560</p>
+                </div>
+
+                <!-- Repuesto 96 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Direccionales traseras</h3>
+                    <p class="text-gray-600 text-sm mb-3">Direccionales traseras cuadradas 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $22,800</p>
+                </div>
+
+                <!-- Repuesto 97 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Socket bombillo stop</h3>
+                    <p class="text-gray-600 text-sm mb-3">Socket bombillo stop</p>
+                    <p class="text-lg font-bold text-green-600">COP $2,640</p>
+                </div>
+
+                <!-- Repuesto 98 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Socket bombillo direccional</h3>
+                    <p class="text-gray-600 text-sm mb-3">Socket bombillo bayoneta direccional</p>
+                    <p class="text-lg font-bold text-green-600">COP $2,040</p>
+                </div>
+
+                <!-- Repuesto 99 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Stop universal 12V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Stop universal 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 100 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luces direccionales U</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luces direccionales 12V tipo U</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 101 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable motor 500-800W</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable para motor 500-800W</p>
+                    <p class="text-lg font-bold text-green-600">COP $55,200</p>
+                </div>
+
+                <!-- Repuesto 102 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Flasher 12V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Flasher 12V</p>
+                    <p class="text-lg font-bold text-green-600">COP $5,760</p>
+                </div>
+
+                <!-- Repuesto 103 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luces direccionales cristal</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luces direccionales 12V tipo cristal</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 104 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luces direccionales lineal</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luces direccionales 12V tipo lineal</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 105 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luces direccionales doble</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luces direccionales 12V tipo doble</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 106 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bombillo stop halógeno</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bombillo stop 12V halógeno (10 bombillos)</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,800</p>
+                </div>
+
+                <!-- Repuesto 107 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bombillo stop LED</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bombillo stop 12V LED</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 108 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bombillo farola cerámica</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bombillo farola 12V/cerámica</p>
+                    <p class="text-lg font-bold text-green-600">COP $22,800</p>
+                </div>
+
+                <!-- Repuesto 109 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bombillo direccional amarillo</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bombillo direccional 12V*5W color amarillo (10 bombillos)</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,200</p>
+                </div>
+
+                <!-- Repuesto 110 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Socket bombillo bayoneta tablero</h3>
+                    <p class="text-gray-600 text-sm mb-3">Socket bombillo bayoneta tablero</p>
+                    <p class="text-lg font-bold text-green-600">COP $1,800</p>
+                </div>
+
+                <!-- Repuesto 111 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable motor 350W</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable de motor 350W</p>
+                    <p class="text-lg font-bold text-green-600">COP $38,400</p>
+                </div>
+
+                <!-- Repuesto 112 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Sensores frenos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Sensores para frenos (par)</p>
+                    <p class="text-lg font-bold text-green-600">COP $6,600</p>
+                </div>
+
+                <!-- Repuesto 113 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Bombillo farola LED</h3>
+                    <p class="text-gray-600 text-sm mb-3">Bombillo farola LED 12V/72V</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 114 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Mando luces, pito y direccional</h3>
+                    <p class="text-gray-600 text-sm mb-3">Mando luces, pito y direccional</p>
+                    <p class="text-lg font-bold text-green-600">COP $15,000</p>
+                </div>
+
+                <!-- Repuesto 115 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Impermeable silicona</h3>
+                    <p class="text-gray-600 text-sm mb-3">Impermeable silicona colores surtidos</p>
+                    <p class="text-lg font-bold text-green-600">COP $56,400</p>
+                </div>
+
+                <!-- Repuesto 116 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guantes moto protección</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guantes para moto con protección</p>
+                    <p class="text-lg font-bold text-green-600">COP $45,600</p>
+                </div>
+
+                <!-- Repuesto 117 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Impermeable desechable</h3>
+                    <p class="text-gray-600 text-sm mb-3">Impermeable desechable (venta mínima 6 unidades)</p>
+                    <p class="text-lg font-bold text-green-600">COP $6,000</p>
+                </div>
+
+                <!-- Repuesto 118 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Exploradora LED 6 bombillos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Exploradora LED 6 bombillos 12V a 80V</p>
+                    <p class="text-lg font-bold text-green-600">COP $39,600</p>
+                </div>
+
+                <!-- Repuesto 119 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Exploradora LED 4 bombillos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Exploradora LED 4 bombillos 12V a 80V</p>
+                    <p class="text-lg font-bold text-green-600">COP $36,000</p>
+                </div>
+
+                <!-- Repuesto 120 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable conector control y display</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable conector control y display TF-100</p>
+                    <p class="text-lg font-bold text-green-600">COP $54,000</p>
+                </div>
+
+                <!-- Repuesto 121 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable motor Xiaomi M365</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable motor Xiaomi M365</p>
+                    <p class="text-lg font-bold text-green-600">COP $38,400</p>
+                </div>
+
+                <!-- Repuesto 122 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic 10x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 10x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 123 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic 50/75-6.1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 50/75-6.1 marca CST</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 124 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Mástil Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Mástil para Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $192,000</p>
+                </div>
+
+                <!-- Repuesto 125 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza colores 8.5x2.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza colores 8.5x2.5</p>
+                    <p class="text-lg font-bold text-green-600">COP $81,600</p>
+                </div>
+
+                <!-- Repuesto 126 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza colores 8.5x3</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza colores 8.5x3</p>
+                    <p class="text-lg font-bold text-green-600">COP $99,600</p>
+                </div>
+
+                <!-- Repuesto 127 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza tipo panal 10x2.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza tipo panal 10x2.5</p>
+                    <p class="text-lg font-bold text-green-600">COP $97,200</p>
+                </div>
+
+                <!-- Repuesto 128 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta neumático 10x2.0</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta para neumático No 10x2.0 para Xiaomi y réplicas</p>
+                    <p class="text-lg font-bold text-green-600">COP $51,600</p>
+                </div>
+
+                <!-- Repuesto 129 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic 80/60-6</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 80/60-6 10x3 marca Chao Yang</p>
+                    <p class="text-lg font-bold text-green-600">COP $84,000</p>
+                </div>
+
+                <!-- Repuesto 130 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta SelloMatic 80/65-6</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta SelloMatic 80/65-6 10x3</p>
+                    <p class="text-lg font-bold text-green-600">COP $96,000</p>
+                </div>
+
+                <!-- Repuesto 131 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza 60/70-6.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza 60/70-6.5 G-30 colores</p>
+                    <p class="text-lg font-bold text-green-600">COP $102,000</p>
+                </div>
+
+                <!-- Repuesto 132 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luz stop Xiaomi M365 Pro2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luz stop Xiaomi M365 Pro2</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,800</p>
+                </div>
+
+                <!-- Repuesto 133 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta neumático No 8</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta para neumático No 8</p>
+                    <p class="text-lg font-bold text-green-600">COP $48,000</p>
+                </div>
+
+                <!-- Repuesto 134 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta tipo panal No 8</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta tipo panal No 8</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 135 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza Ninebot 8x2.125</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza Ninebot 8x2.125</p>
+                    <p class="text-lg font-bold text-green-600">COP $62,400</p>
+                </div>
+
+                <!-- Repuesto 136 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta neumático 10x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta de neumático No 10x2.50</p>
+                    <p class="text-lg font-bold text-green-600">COP $54,000</p>
+                </div>
+
+                <!-- Repuesto 137 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza 10x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza 10x2.50 GMAX*G30</p>
+                    <p class="text-lg font-bold text-green-600">COP $96,000</p>
+                </div>
+
+                <!-- Repuesto 138 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza 70/65-6.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza 70/65-6.5 10x2.75</p>
+                    <p class="text-lg font-bold text-green-600">COP $108,000</p>
+                </div>
+
+                <!-- Repuesto 139 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta neumático 60/70-6.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta para neumático 60/70-6.5</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 140 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta Sello-Matic 10x2.70-6.5</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta Sello-Matic 10x2.70-6.5</p>
+                    <p class="text-lg font-bold text-green-600">COP $90,000</p>
+                </div>
+
+                <!-- Repuesto 141 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta CST gel antipinchazo</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta CST con gel antipinchazo 60/70-6.5</p>
+                    <p class="text-lg font-bold text-green-600">COP $102,000</p>
+                </div>
+
+                <!-- Repuesto 142 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta neumático 200x50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta para neumático 200x50</p>
+                    <p class="text-lg font-bold text-green-600">COP $39,600</p>
+                </div>
+
+                <!-- Repuesto 143 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Llanta maciza 200x50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Llanta maciza 200x50</p>
+                    <p class="text-lg font-bold text-green-600">COP $51,600</p>
+                </div>
+
+                <!-- Repuesto 144 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 200x50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático 200x50 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 145 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 8.5x2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático No 8 ½x2 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 146 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 8.5x2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático No 8 1/2x2 válvula recta</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,800</p>
+                </div>
+
+                <!-- Repuesto 147 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 10x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático No 10x2.50 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 148 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 10x2.50</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático No 10x2.50 válvula recta</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 149 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Neumático 10x3.0</h3>
+                    <p class="text-gray-600 text-sm mb-3">Neumático No 10x3.0 válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 150 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rin + llanta Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rin + llanta Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $180,000</p>
+                </div>
+
+                <!-- Repuesto 151 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rin + disco + llanta panal</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rin + disco + llanta panal</p>
+                    <p class="text-lg font-bold text-green-600">COP $204,000</p>
+                </div>
+
+                <!-- Repuesto 152 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Rin delantero Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Rin delantero Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $114,000</p>
+                </div>
+
+                <!-- Repuesto 153 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros trasero Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros trasero patineta Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $25,200</p>
+                </div>
+
+                <!-- Repuesto 154 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros trasero Xiaomi 4 huecos</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros trasero patineta Xiaomi 4 huecos</p>
+                    <p class="text-lg font-bold text-green-600">COP $24,000</p>
+                </div>
+
+                <!-- Repuesto 155 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros delantero Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros delantero Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 156 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros delantero Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros delantero Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 157 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros trasero Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros trasero de Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $66,000</p>
+                </div>
+
+                <!-- Repuesto 158 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guardabarros trasero Pro 2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guardabarros trasero Pro 2</p>
+                    <p class="text-lg font-bold text-green-600">COP $54,000</p>
+                </div>
+
+                <!-- Repuesto 159 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte guardabarros Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte guardabarros Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 160 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte guardabarros Xiaomi No 2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte guardabarros Xiaomi No 2</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,200</p>
+                </div>
+
+                <!-- Repuesto 161 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte guardabarros plástico</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte guardabarros plástico</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 162 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte guardabarros aluminio G-30</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte guardabarros aluminio G-30</p>
+                    <p class="text-lg font-bold text-green-600">COP $16,800</p>
+                </div>
+
+                <!-- Repuesto 163 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $234,000</p>
+                </div>
+
+                <!-- Repuesto 164 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador scooter 36V/48V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador scooter 36V/48V</p>
+                    <p class="text-lg font-bold text-green-600">COP $171,120</p>
+                </div>
+
+                <!-- Repuesto 165 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador Xiaomi Pro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador Xiaomi Pro</p>
+                    <p class="text-lg font-bold text-green-600">COP $214,800</p>
+                </div>
+
+                <!-- Repuesto 166 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Display patineta Xiaomi Pro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Display patineta Xiaomi Pro</p>
+                    <p class="text-lg font-bold text-green-600">COP $150,000</p>
+                </div>
+
+                <!-- Repuesto 167 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Display Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Display Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $150,000</p>
+                </div>
+
+                <!-- Repuesto 168 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Display + protector Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Display + protector Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $150,000</p>
+                </div>
+
+                <!-- Repuesto 169 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Display + acelerador scooter</h3>
+                    <p class="text-gray-600 text-sm mb-3">Display + acelerador scooter 36 o 48V</p>
+                    <p class="text-lg font-bold text-green-600">COP $192,480</p>
+                </div>
+
+                <!-- Repuesto 170 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Controlador y display 36V/48V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Controlador y display 36V/48 350W-13AMP</p>
+                    <p class="text-lg font-bold text-green-600">COP $258,000</p>
+                </div>
+
+                <!-- Repuesto 171 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $33,600</p>
+                </div>
+
+                <!-- Repuesto 172 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $33,600</p>
+                </div>
+
+                <!-- Repuesto 173 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Freno Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Freno Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $33,600</p>
+                </div>
+
+                <!-- Repuesto 174 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Acelerador scooter genérico</h3>
+                    <p class="text-gray-600 text-sm mb-3">Acelerador scooter genérico</p>
+                    <p class="text-lg font-bold text-green-600">COP $38,400</p>
+                </div>
+
+                <!-- Repuesto 175 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cargador genérico 36V litio</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cargador genérico 36V litio conector tipo A</p>
+                    <p class="text-lg font-bold text-green-600">COP $72,000</p>
+                </div>
+
+                <!-- Repuesto 176 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luz frontal Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luz frontal Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 177 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Luz stop Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Luz stop Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $15,600</p>
+                </div>
+
+                <!-- Repuesto 178 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Motor patineta 250W*36V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Motor patineta 250W*36V</p>
+                    <p class="text-lg font-bold text-green-600">COP $480,000</p>
+                </div>
+
+                <!-- Repuesto 179 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Alarma scooter 48V/72V</h3>
+                    <p class="text-gray-600 text-sm mb-3">Alarma scooter 48V/72V</p>
+                    <p class="text-lg font-bold text-green-600">COP $37,200</p>
+                </div>
+
+                <!-- Repuesto 180 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable motor Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable de motor para Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $37,200</p>
+                </div>
+
+                <!-- Repuesto 181 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">BMS batería Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">BMS batería Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $228,000</p>
+                </div>
+
+                <!-- Repuesto 182 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">BMS batería Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">BMS batería Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $228,000</p>
+                </div>
+
+                <!-- Repuesto 183 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Conector cargador Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Conector cargador Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 184 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector display Xiaomi Pro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector display Xiaomi Pro</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 185 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector display Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector display Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,000</p>
+                </div>
+
+                <!-- Repuesto 186 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector display Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector display Ninebot silicona</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 187 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Guaya trasera Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Guaya trasera Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 188 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Disco de freno 110</h3>
+                    <p class="text-gray-600 text-sm mb-3">Disco de freno 110</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 189 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Disco de freno 120</h3>
+                    <p class="text-gray-600 text-sm mb-3">Disco de freno 120</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 190 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector tablero Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector tablero Xiaomi silicona</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 191 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cable conector cont+disp</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cable conector control+display</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 192 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Paral Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Paral Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 193 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Tapete silicona Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Tapete silicona Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $29,520</p>
+                </div>
+
+                <!-- Repuesto 194 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pito Xiaomi Pro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pito Xiaomi Pro</p>
+                    <p class="text-lg font-bold text-green-600">COP $24,000</p>
+                </div>
+
+                <!-- Repuesto 195 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Juego de empaques</h3>
+                    <p class="text-gray-600 text-sm mb-3">Juego de empaques</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,080</p>
+                </div>
+
+                <!-- Repuesto 196 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pieza pliegue Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pieza pliegue Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $54,000</p>
+                </div>
+
+                <!-- Repuesto 197 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Mordaza freno Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Mordaza de freno Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $44,400</p>
+                </div>
+
+                <!-- Repuesto 198 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Decorativos Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Decorativos de Xiaomi (amarillo, rojo, azul)</p>
+                    <p class="text-lg font-bold text-green-600">COP $24,000</p>
+                </div>
+
+                <!-- Repuesto 199 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Válvula Sello-Matic corta</h3>
+                    <p class="text-gray-600 text-sm mb-3">Válvula Sello-Matic corta</p>
+                    <p class="text-lg font-bold text-green-600">COP $5,400</p>
+                </div>
+
+                <!-- Repuesto 200 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Extensor válvula curva</h3>
+                    <p class="text-gray-600 text-sm mb-3">Extensor válvula curva</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 201 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Tornillo</h3>
+                    <p class="text-gray-600 text-sm mb-3">Tornillo</p>
+                    <p class="text-lg font-bold text-green-600">COP $13,800</p>
+                </div>
+
+                <!-- Repuesto 202 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Juego pliegue completo G-30</h3>
+                    <p class="text-gray-600 text-sm mb-3">Juego de pliegue completo Max G-30</p>
+                    <p class="text-lg font-bold text-green-600">COP $15,600</p>
+                </div>
+
+                <!-- Repuesto 203 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Espejos/reflectores</h3>
+                    <p class="text-gray-600 text-sm mb-3">Espejos/reflectores</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 204 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Maletín scooter 2 litros</h3>
+                    <p class="text-gray-600 text-sm mb-3">Maletín scooter 2 litros</p>
+                    <p class="text-lg font-bold text-green-600">COP $48,000</p>
+                </div>
+
+                <!-- Repuesto 205 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector silicona manigueta</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector silicona manigueta (par)</p>
+                    <p class="text-lg font-bold text-green-600">COP $6,000</p>
+                </div>
+
+                <!-- Repuesto 206 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Extensor No 8 a No 10</h3>
+                    <p class="text-gray-600 text-sm mb-3">Extensor No 8 a No 10</p>
+                    <p class="text-lg font-bold text-green-600">COP $12,000</p>
+                </div>
+
+                <!-- Repuesto 207 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Soporte/gancho</h3>
+                    <p class="text-gray-600 text-sm mb-3">Soporte/gancho</p>
+                    <p class="text-lg font-bold text-green-600">COP $10,800</p>
+                </div>
+
+                <!-- Repuesto 208 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector silicona acelerador</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector silicona acelerador</p>
+                    <p class="text-lg font-bold text-green-600">COP $6,000</p>
+                </div>
+
+                <!-- Repuesto 209 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pieza pliegue Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pieza pliegue Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $114,000</p>
+                </div>
+
+                <!-- Repuesto 210 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno No 4</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno No 4</p>
+                    <p class="text-lg font-bold text-green-600">COP $14,400</p>
+                </div>
+
+                <!-- Repuesto 211 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno No 3</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno No 3</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 212 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno No 2</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno No 2</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 213 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pastillas freno Xiaomi No 1</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pastillas de freno Xiaomi No 1</p>
+                    <p class="text-lg font-bold text-green-600">COP $9,600</p>
+                </div>
+
+                <!-- Repuesto 214 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Cunas dirección Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Cunas dirección Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $33,600</p>
+                </div>
+
+                <!-- Repuesto 215 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Mangos scooter</h3>
+                    <p class="text-gray-600 text-sm mb-3">Mangos scooter</p>
+                    <p class="text-lg font-bold text-green-600">COP $22,800</p>
+                </div>
+
+                <!-- Repuesto 216 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Empaque conector cargador</h3>
+                    <p class="text-gray-600 text-sm mb-3">Empaque conector cargador</p>
+                    <p class="text-lg font-bold text-green-600">COP $7,860</p>
+                </div>
+
+                <!-- Repuesto 217 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Manigueta freno Xiaomi</h3>
+                    <p class="text-gray-600 text-sm mb-3">Manigueta freno de Xiaomi</p>
+                    <p class="text-lg font-bold text-green-600">COP $42,000</p>
+                </div>
+
+                <!-- Repuesto 218 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Chasis patineta</h3>
+                    <p class="text-gray-600 text-sm mb-3">Chasis patineta</p>
+                    <p class="text-lg font-bold text-green-600">COP $494,400</p>
+                </div>
+
+                <!-- Repuesto 219 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pasador/seguro</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pasador/seguro</p>
+                    <p class="text-lg font-bold text-green-600">COP $48,000</p>
+                </div>
+
+                <!-- Repuesto 220 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Tubos para Ninebot</h3>
+                    <p class="text-gray-600 text-sm mb-3">Tubos para Ninebot</p>
+                    <p class="text-lg font-bold text-green-600">COP $156,000</p>
+                </div>
+
+                <!-- Repuesto 221 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Platina/mordaza</h3>
+                    <p class="text-gray-600 text-sm mb-3">Platina/mordaza</p>
+                    <p class="text-lg font-bold text-green-600">COP $26,760</p>
+                </div>
+
+                <!-- Repuesto 222 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Uña</h3>
+                    <p class="text-gray-600 text-sm mb-3">Uña</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 223 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-bolt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Pasador</h3>
+                    <p class="text-gray-600 text-sm mb-3">Pasador</p>
+                    <p class="text-lg font-bold text-green-600">COP $5,400</p>
+                </div>
+
+                <!-- Repuesto 224 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Uña + pasador</h3>
+                    <p class="text-gray-600 text-sm mb-3">Uña + pasador</p>
+                    <p class="text-lg font-bold text-green-600">COP $21,600</p>
+                </div>
+
+                <!-- Repuesto 225 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-plug text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Protector tenedor</h3>
+                    <p class="text-gray-600 text-sm mb-3">Protector tenedor</p>
+                    <p class="text-lg font-bold text-green-600">COP $18,720</p>
+                </div>
+
+                <!-- Repuesto 226 -->
+                <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                    <div class="bg-gray-200 h-20 flex items-center justify-center rounded mb-4">
+                        <i class="fas fa-wrench text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2">Suspensión delantera</h3>
+                    <p class="text-gray-600 text-sm mb-3">Suspensión delantera</p>
+                    <p class="text-lg font-bold text-green-600">COP $228,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestros Servicios</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Contamos con un equipo técnico especializado para brindarte el mejor servicio postventa.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Servicio 1 -->
+                <div class="text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tools text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Mantenimiento Preventivo</h3>
+                    <p class="text-gray-600">Inspección completa del sistema eléctrico, limpieza de contactos, verificación de voltajes y recomendaciones de optimización.</p>
+                    <div class="mt-4">
+                        <span class="text-2xl font-bold text-green-600">COP $96,000</span>
+                        <p class="text-sm text-gray-500">por servicio</p>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-cogs text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Reparación de Sistemas</h3>
+                    <p class="text-gray-600">Diagnóstico y reparación de fallas en baterías, controladores, motores y sistemas eléctricos.</p>
+                    <div class="mt-4">
+                        <span class="text-2xl font-bold text-green-600">COP $144,000</span>
+                        <p class="text-sm text-gray-500">por servicio</p>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="text-center">
+                    <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chart-line text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Optimización de Rendimiento</h3>
+                    <p class="text-gray-600">Ajuste y calibración del sistema para maximizar la eficiencia energética y prolongar la vida útil de los componentes.</p>
+                    <div class="mt-4">
+                        <span class="text-2xl font-bold text-green-600">COP $192,000</span>
+                        <p class="text-sm text-gray-500">por servicio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Contáctanos</h2>
+                    <p class="text-gray-300 mb-8">Estamos aquí para ayudarte con tus necesidades en movilidad eléctrica. Escríbenos o visítanos en nuestra ubicación.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-600 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg">Dirección</h3>
+                                <p class="text-gray-300">Carrera 22 #30A-27<br>Tuluá, Valle del Cauca</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-green-600 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg">Teléfonos</h3>
+                                <p class="text-gray-300">304-3604784<br>318-6402055</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-yellow-600 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg">Correo Electrónico</h3>
+                                <p class="text-gray-300">info@movilidadelectricawr.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h3 class="font-bold text-lg mb-4">Horario de Atención</h3>
+                        <p class="text-gray-300">Lunes a Viernes: 8:00 AM - 6:00 PM<br>Sábados: 8:00 AM - 2:00 PM<br>Domingos: Cerrado</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Envíanos un Mensaje</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                                Nombre Completo
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                                Correo Electrónico
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="tu@email.com">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+                                Teléfono
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="tel" placeholder="304-1234567">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                                Mensaje
+                            </label>
+                            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" placeholder="Tu consulta o comentario"></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button class="btn-primary text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline w-full" type="button">
+                                Enviar Mensaje
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-green-600 rounded-full flex items-center justify-center mr-3">
+                            <span class="text-white font-bold">WR</span>
+                        </div>
+                        <h3 class="text-xl font-bold">Movilidad Eléctrica WR</h3>
+                    </div>
+                    <p class="text-gray-400">Especialistas en baterías y soluciones para movilidad eléctrica. Calidad, garantía y servicio técnico especializado.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Productos</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#baterias" class="hover:text-white transition">Baterías 12V</a></li>
+                        <li><a href="#repuestos" class="hover:text-white transition">Repuestos</a></li>
+                        <li><a href="#servicios" class="hover:text-white transition">Servicios Técnicos</a></li>
+                        <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Información</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i> Carrera 22 #30A-27, Tuluá</li>
+                        <li class="flex items-center"><i class="fas fa-phone mr-2"></i> 304-3604784</li>
+                        <li class="flex items-center"><i class="fas fa-phone mr-2"></i> 318-6402055</li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> info@movilidadelectricawr.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2023 Movilidad Eléctrica WR. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission (simulated)
+        document.querySelector('form button').addEventListener('click', function() {
+            alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+            document.querySelector('form').reset();
+        });
+    </script>
+</body>
+</html>
+```
